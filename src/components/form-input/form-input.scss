@@ -24,6 +24,10 @@ $main-color: black;
     border-bottom: 1px solid $sub-color;
     margin: 25px 0;
 
+    &:required {
+      box-shadow: none;
+    }
+
     &:focus {
       outline: none;
     }
